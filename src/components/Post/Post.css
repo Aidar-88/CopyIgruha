@@ -1,0 +1,21 @@
+.post {
+    
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    margin: 20px 0;
+    
+
+}
+.post p {
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* При наведении добавим небольшую анимацию */
+.post:hover {
+    transform: scale(1.05);
+}

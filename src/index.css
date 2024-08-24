@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #ffffff; /* Цвет фона для заголовка */
+    padding: 12px; /* Внутренний отступ для заголовка */
+    text-align: center; /* Выравнивание текста по центру */
+    border-bottom: 1px solid #000; /* Черная нижняя линия */
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1 {
+    margin: 0; /* Удаление стандартного отступа для h1 */
+    color: #333; /* Цвет текста в заголовке */
+}
+.header nav {
+    margin-top: 10px; /* Регулируйте по мере необходимости */
+}
+
+.header nav a {
+    text-decoration: none;
+    color: #555;
+    margin-right: 20px; /* Регулируйте по мере необходимости */
+    font-weight: bold;
+}
+
+.container{
+    width: 70%; /* Ширина контейнера, чтобы контент не был слишком широким */
+    margin: 0 auto; /* Автоматический отступ по бокам для центрирования */
+}
+.main{
+    padding: 1rem;
+ /* Внутренний отступ для основного контента */
+    width: 60%; /* Ширина контейнера, чтобы контент не был слишком широким */
+    margin: 0 auto; /* Автоматический отступ по бокам для центрирования */
+}
+ul{
+    list-style: none;
+}
+.controlInput{
+    border: 1px solid #111;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+h3{
+    margin-bottom: 1rem;
+}

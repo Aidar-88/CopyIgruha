@@ -1,0 +1,45 @@
+.button38 {
+  background-color: #ffffff;
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 0 1rem 1rem 0;
+}
+
+.button38:hover {
+  background-color: rgb(215, 216, 216);
+}
+
+.button38:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button38:focus-visible {
+  box-shadow: none;
+}
+.button38.active {
+  background-color: #6b7280; /* Цвет активной кнопки */
+  color: #ffffff; /* Цвет текста на активной кнопке */
+  font-weight: bold; /* Увеличьте жирность текста на активной кнопке (если необходимо) */
+  /* Другие стили по вашему усмотрению */
+}
+
+.button-active:hover {
+  background-color: #6b7280; /* Цвет при наведении на активную кнопку */
+  /* Другие стили по вашему усмотрению */
+}
